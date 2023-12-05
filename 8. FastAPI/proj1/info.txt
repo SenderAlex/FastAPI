@@ -1,0 +1,7 @@
+pip install fastapi  # аналог DRF, только fastapi
+pip install "uvicorn[standard]"  # веб-сервер, на котором работает fastAPI
+
+Для запуска приложения нужно сделать: ls, cd '.\8. FastAPI\', cd .\proj1\, uvicorn main:app --reload
+
+pip install pydantic  # это библиотека, построенная на основе классов данных Python и добавляющая дополнительные
+функции для валидации и анализа данных.
